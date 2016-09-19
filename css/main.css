@@ -1,0 +1,25 @@
+.container {
+	width 100%;
+	height: 1000px;
+	position: relative;
+}
+nav {
+	background-color: #333333;
+	height: 30px;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+li a {
+	text-decoration:none;
+	font-family: arial;
+	color: #ABABAB;
+	float: left;
+	padding: 5px;
+	font-size: 13px;
+	margin-top: 2px;
+	margin-right: 13px;
+}
+img {display:block;}
