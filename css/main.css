@@ -10,6 +10,7 @@ nav {
 li {
 	list-style: none;
 	display: inline-block;
+	float: right;
 }
 
 li a {
@@ -22,4 +23,26 @@ li a {
 	margin-top: 2px;
 	margin-right: 13px;
 }
-img {display:block;}
+img {
+	display:block;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#main {
+	display:block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.search {
+	position: relative;
+	margin: 10px auto;
+	display: block;
+}
+* {
+	border-width: 1px;
+	border-color: #F00;
+	border-style: inset;
+}
